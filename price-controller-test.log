@@ -1,0 +1,58 @@
+################################################################################
+# Thanks for using OpenAPI Generator.                                          #
+# Please consider donation to help us maintain this project ?                 #
+# https://opencollective.com/openapi_generator/donate                          #
+################################################################################
+18:45:11.322 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.inditex.priceservice.infrastructure.in.rest.PriceControllerE2ETest]: PriceControllerE2ETest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+18:45:11.489 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.inditex.priceservice.PriceApplication for test class com.inditex.priceservice.infrastructure.in.rest.PriceControllerE2ETest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::               (v3.5.14)
+
+2026-06-08T18:45:12.038+02:00  INFO 15308 --- [price-service] [           main] c.i.p.i.in.rest.PriceControllerE2ETest   : Starting PriceControllerE2ETest using Java 21.0.11 with PID 15308 (started by david in E:\Programacion\PruebaTecnicaInditex\PruebaTecnicaInditex)
+2026-06-08T18:45:12.039+02:00  INFO 15308 --- [price-service] [           main] c.i.p.i.in.rest.PriceControllerE2ETest   : No active profile set, falling back to 1 default profile: "default"
+2026-06-08T18:45:13.081+02:00  INFO 15308 --- [price-service] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-08T18:45:13.183+02:00  INFO 15308 --- [price-service] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 88 ms. Found 1 JPA repository interface.
+2026-06-08T18:45:13.777+02:00  INFO 15308 --- [price-service] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 0 (http)
+2026-06-08T18:45:13.792+02:00  INFO 15308 --- [price-service] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-08T18:45:13.792+02:00  INFO 15308 --- [price-service] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.54]
+2026-06-08T18:45:13.870+02:00  INFO 15308 --- [price-service] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-06-08T18:45:13.871+02:00  INFO 15308 --- [price-service] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1574 ms
+2026-06-08T18:45:14.088+02:00  INFO 15308 --- [price-service] [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-06-08T18:45:14.151+02:00  INFO 15308 --- [price-service] [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.49.Final
+2026-06-08T18:45:14.185+02:00  INFO 15308 --- [price-service] [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-06-08T18:45:14.568+02:00  INFO 15308 --- [price-service] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-08T18:45:14.603+02:00  INFO 15308 --- [price-service] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-06-08T18:45:14.768+02:00  INFO 15308 --- [price-service] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:pricesdb user=SA
+2026-06-08T18:45:14.769+02:00  INFO 15308 --- [price-service] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-06-08T18:45:14.790+02:00  WARN 15308 --- [price-service] [           main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-08T18:45:14.810+02:00  INFO 15308 --- [price-service] [           main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-08T18:45:15.514+02:00  INFO 15308 --- [price-service] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-08T18:45:15.559+02:00  INFO 15308 --- [price-service] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-08T18:45:15.972+02:00  WARN 15308 --- [price-service] [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-08T18:45:16.018+02:00  INFO 15308 --- [price-service] [           main] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2026-06-08T18:45:16.384+02:00  INFO 15308 --- [price-service] [           main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:pricesdb'
+2026-06-08T18:45:16.671+02:00  INFO 15308 --- [price-service] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 56938 (http) with context path '/'
+2026-06-08T18:45:16.681+02:00  INFO 15308 --- [price-service] [           main] c.i.p.i.in.rest.PriceControllerE2ETest   : Started PriceControllerE2ETest in 5.033 seconds (process running for 6.065)
+Mockito is currently self-attaching to enable the inline-mock-maker. This will no longer work in future releases of the JDK. Please add Mockito as an agent to your build as described in Mockito's documentation: https://javadoc.io/doc/org.mockito/mockito-core/latest/org.mockito/org/mockito/Mockito.html#0.3
+WARNING: A Java agent has been loaded dynamically (C:\Users\david\.m2\repository\net\bytebuddy\byte-buddy-agent\1.17.8\byte-buddy-agent-1.17.8.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+OpenJDK 64-Bit Server VM warning: Sharing is only supported for boot loader classes because bootstrap classpath has been appended
+2026-06-08T18:45:17.876+02:00  INFO 15308 --- [price-service] [o-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-08T18:45:17.876+02:00  INFO 15308 --- [price-service] [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-06-08T18:45:17.877+02:00  INFO 15308 --- [price-service] [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms

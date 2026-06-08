@@ -1,0 +1,499 @@
+[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< com.inditex:price-service >----------------------
+[INFO] Building price-service 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.4.1:clean (default-clean) @ price-service ---
+[INFO] Deleting E:\Programacion\PruebaTecnicaInditex\PruebaTecnicaInditex\target
+[INFO] 
+[INFO] >>> spring-boot:3.5.14:run (default-cli) > test-compile @ price-service >>>
+[INFO] 
+[INFO] --- openapi-generator:7.4.0:generate (default) @ price-service ---
+[INFO] Generating with dryRun=false
+[INFO] Output directory (E:\Programacion\PruebaTecnicaInditex\PruebaTecnicaInditex\target\generated-sources\openapi) does not exist, or is inaccessible. No file (.openapi-generator-ignore) will be evaluated.
+[INFO] OpenAPI Generator: spring (server)
+[INFO] Generator 'spring' is considered stable.
+[INFO] ----------------------------------
+[INFO] Environment variable JAVA_POST_PROCESS_FILE not defined so the Java code may not be properly formatted. To define it, try 'export JAVA_POST_PROCESS_FILE="/usr/local/bin/clang-format -i"' (Linux/Mac)
+[INFO] NOTE: To enable file post-processing, 'enablePostProcessFile' must be set to `true` (--enable-post-process-file for CLI).
+[INFO] Invoker Package Name, originally not set, is now derived from api package name: com.inditex.priceservice.infrastructure.in.rest
+[INFO] Processing operation getApplicablePrice
+[INFO] 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+[INFO] 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+[INFO] 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+[INFO] writing file E:\Programacion\PruebaTecnicaInditex\PruebaTecnicaInditex\target\generated-sources\openapi\src\main\java\com\inditex\priceservice\infrastructure\in\rest\generated\model\ErrorResponse.java
+[INFO] writing file E:\Programacion\PruebaTecnicaInditex\PruebaTecnicaInditex\target\generated-sources\openapi\src\main\java\com\inditex\priceservice\infrastructure\in\rest\generated\model\PriceResponse.java
+[INFO] 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+[INFO] writing file E:\Programacion\PruebaTecnicaInditex\PruebaTecnicaInditex\target\generated-sources\openapi\src\main\java\com\inditex\priceservice\infrastructure\in\rest\generated\PricesApi.java
+[INFO] Skipping generation of Webhooks.
+[INFO] 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+[INFO] writing file E:\Programacion\PruebaTecnicaInditex\PruebaTecnicaInditex\target\generated-sources\openapi\pom.xml
+[INFO] writing file E:\Programacion\PruebaTecnicaInditex\PruebaTecnicaInditex\target\generated-sources\openapi\README.md
+[INFO] writing file E:\Programacion\PruebaTecnicaInditex\PruebaTecnicaInditex\target\generated-sources\openapi\src\main\java\com\inditex\priceservice\infrastructure\in\rest\generated\ApiUtil.java
+[INFO] writing file E:\Programacion\PruebaTecnicaInditex\PruebaTecnicaInditex\target\generated-sources\openapi\.openapi-generator-ignore
+[INFO] writing file E:\Programacion\PruebaTecnicaInditex\PruebaTecnicaInditex\target\generated-sources\openapi\.openapi-generator\VERSION
+[INFO] writing file E:\Programacion\PruebaTecnicaInditex\PruebaTecnicaInditex\target\generated-sources\openapi\.openapi-generator\FILES
+################################################################################
+# Thanks for using OpenAPI Generator.                                          #
+# Please consider donation to help us maintain this project ?                 #
+# https://opencollective.com/openapi_generator/donate                          #
+################################################################################
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ price-service ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 2 resources from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.14.1:compile (default-compile) @ price-service ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 18 source files with javac [debug parameters release 21] to target\classes
+[INFO] Annotation processing is enabled because one or more processors were found
+  on the class path. A future release of javac may disable annotation processing
+  unless at least one processor is specified by name (-processor), or a search
+  path is specified (--processor-path, --processor-module-path), or annotation
+  processing is enabled explicitly (-proc:only, -proc:full).
+  Use -Xlint:-options to suppress this message.
+  Use -proc:none to disable annotation processing.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ price-service ---
+[INFO] skip non existing resourceDirectory E:\Programacion\PruebaTecnicaInditex\PruebaTecnicaInditex\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.14.1:testCompile (default-testCompile) @ price-service ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 2 source files with javac [debug parameters release 21] to target\test-classes
+[INFO] Annotation processing is enabled because one or more processors were found
+  on the class path. A future release of javac may disable annotation processing
+  unless at least one processor is specified by name (-processor), or a search
+  path is specified (--processor-path, --processor-module-path), or annotation
+  processing is enabled explicitly (-proc:only, -proc:full).
+  Use -Xlint:-options to suppress this message.
+  Use -proc:none to disable annotation processing.
+[INFO] 
+[INFO] <<< spring-boot:3.5.14:run (default-cli) < test-compile @ price-service <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot:3.5.14:run (default-cli) @ price-service ---
+[INFO] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::               (v3.5.14)
+
+2026-06-08T17:47:07.834+02:00  INFO 13572 --- [price-service] [           main] c.inditex.priceservice.PriceApplication  : Starting PriceApplication using Java 21.0.11 with PID 13572 (E:\Programacion\PruebaTecnicaInditex\PruebaTecnicaInditex\target\classes started by david in E:\Programacion\PruebaTecnicaInditex\PruebaTecnicaInditex)
+2026-06-08T17:47:07.836+02:00  INFO 13572 --- [price-service] [           main] c.inditex.priceservice.PriceApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-06-08T17:47:08.490+02:00  INFO 13572 --- [price-service] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-08T17:47:08.570+02:00  INFO 13572 --- [price-service] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 73 ms. Found 1 JPA repository interface.
+2026-06-08T17:47:08.990+02:00  INFO 13572 --- [price-service] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-06-08T17:47:09.002+02:00  INFO 13572 --- [price-service] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-08T17:47:09.002+02:00  INFO 13572 --- [price-service] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.54]
+2026-06-08T17:47:09.067+02:00  INFO 13572 --- [price-service] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-06-08T17:47:09.068+02:00  INFO 13572 --- [price-service] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1192 ms
+2026-06-08T17:47:09.218+02:00  INFO 13572 --- [price-service] [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-06-08T17:47:09.263+02:00  INFO 13572 --- [price-service] [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.49.Final
+2026-06-08T17:47:09.303+02:00  INFO 13572 --- [price-service] [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-06-08T17:47:09.600+02:00  INFO 13572 --- [price-service] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-08T17:47:09.627+02:00  INFO 13572 --- [price-service] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-06-08T17:47:09.789+02:00  INFO 13572 --- [price-service] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:pricesdb user=SA
+2026-06-08T17:47:09.792+02:00  INFO 13572 --- [price-service] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-06-08T17:47:09.812+02:00  WARN 13572 --- [price-service] [           main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-08T17:47:09.829+02:00  INFO 13572 --- [price-service] [           main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-08T17:47:10.526+02:00  INFO 13572 --- [price-service] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-08T17:47:10.559+02:00  WARN 13572 --- [price-service] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "INSERT INTO prices (brand_id, start_date, end_date, price_list, product_id, priority, price, currency)" via JDBC [Error de Sintaxis en sentencia SQL "INSERT INTO prices (brand_id, start_date, end_date, price_list, product_id, priority, price, currency)[*]"; se esperaba "OVERRIDING USER VALUE, OVERRIDING SYSTEM VALUE, DIRECT, DEFAULT VALUES, VALUES, SET, WITH, (, SELECT, TABLE, VALUES"
+Syntax error in SQL statement "INSERT INTO prices (brand_id, start_date, end_date, price_list, product_id, priority, price, currency)[*]"; expected "OVERRIDING USER VALUE, OVERRIDING SYSTEM VALUE, DIRECT, DEFAULT VALUES, VALUES, SET, WITH, (, SELECT, TABLE, VALUES";]
+
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "INSERT INTO prices (brand_id, start_date, end_date, price_list, product_id, priority, price, currency)" via JDBC [Error de Sintaxis en sentencia SQL "INSERT INTO prices (brand_id, start_date, end_date, price_list, product_id, priority, price, currency)[*]"; se esperaba "OVERRIDING USER VALUE, OVERRIDING SYSTEM VALUE, DIRECT, DEFAULT VALUES, VALUES, SET, WITH, (, SELECT, TABLE, VALUES"
+Syntax error in SQL statement "INSERT INTO prices (brand_id, start_date, end_date, price_list, product_id, priority, price, currency)[*]"; expected "OVERRIDING USER VALUE, OVERRIDING SYSTEM VALUE, DIRECT, DEFAULT VALUES, VALUES, SET, WITH, (, SELECT, TABLE, VALUES";]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:94) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.tool.schema.internal.Helper.applySqlString(Helper.java:233) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.tool.schema.internal.Helper.applyScript(Helper.java:255) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applyImportFiles(SchemaCreatorImpl.java:694) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applyImportSources(SchemaCreatorImpl.java:597) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.performCreation(SchemaCreatorImpl.java:186) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:144) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:120) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:250) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at java.base/java.util.HashMap.forEach(HashMap.java:1429) ~[na:na]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:324) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:463) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1517) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66) ~[spring-orm-6.2.18.jar:6.2.18]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:388) ~[spring-orm-6.2.18.jar:6.2.18]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:419) ~[spring-orm-6.2.18.jar:6.2.18]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:400) ~[spring-orm-6.2.18.jar:6.2.18]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:364) ~[spring-orm-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1873) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1822) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:607) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:974) ~[spring-context-6.2.18.jar:6.2.18]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:628) ~[spring-context-6.2.18.jar:6.2.18]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.5.14.jar:3.5.14]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.5.14.jar:3.5.14]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.5.14.jar:3.5.14]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.5.14.jar:3.5.14]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.5.14.jar:3.5.14]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.5.14.jar:3.5.14]
+	at com.inditex.priceservice.PriceApplication.main(PriceApplication.java:10) ~[classes/:na]
+Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "INSERT INTO prices (brand_id, start_date, end_date, price_list, product_id, priority, price, currency)[*]"; se esperaba "OVERRIDING USER VALUE, OVERRIDING SYSTEM VALUE, DIRECT, DEFAULT VALUES, VALUES, SET, WITH, (, SELECT, TABLE, VALUES"
+Syntax error in SQL statement "INSERT INTO prices (brand_id, start_date, end_date, price_list, product_id, priority, price, currency)[*]"; expected "OVERRIDING USER VALUE, OVERRIDING SYSTEM VALUE, DIRECT, DEFAULT VALUES, VALUES, SET, WITH, (, SELECT, TABLE, VALUES"; SQL statement:
+INSERT INTO prices (brand_id, start_date, end_date, price_list, product_id, priority, price, currency) [42001-232]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:514) ~[h2-2.3.232.jar:2.3.232]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489) ~[h2-2.3.232.jar:2.3.232]
+	at org.h2.message.DbException.getSyntaxError(DbException.java:261) ~[h2-2.3.232.jar:2.3.232]
+	at org.h2.command.ParserBase.getSyntaxError(ParserBase.java:762) ~[h2-2.3.232.jar:2.3.232]
+	at org.h2.command.ParserBase.read(ParserBase.java:369) ~[h2-2.3.232.jar:2.3.232]
+	at org.h2.command.Parser.parseQueryPrimary(Parser.java:2696) ~[h2-2.3.232.jar:2.3.232]
+	at org.h2.command.Parser.parseQueryTerm(Parser.java:2547) ~[h2-2.3.232.jar:2.3.232]
+	at org.h2.command.Parser.parseQueryExpressionBody(Parser.java:2526) ~[h2-2.3.232.jar:2.3.232]
+	at org.h2.command.Parser.parseQueryExpressionBodyAndEndOfQuery(Parser.java:2519) ~[h2-2.3.232.jar:2.3.232]
+	at org.h2.command.Parser.parseQueryExpression(Parser.java:2512) ~[h2-2.3.232.jar:2.3.232]
+	at org.h2.command.Parser.parseQuery(Parser.java:2479) ~[h2-2.3.232.jar:2.3.232]
+	at org.h2.command.Parser.parseInsert(Parser.java:1558) ~[h2-2.3.232.jar:2.3.232]
+	at org.h2.command.Parser.parsePrepared(Parser.java:698) ~[h2-2.3.232.jar:2.3.232]
+	at org.h2.command.Parser.parse(Parser.java:581) ~[h2-2.3.232.jar:2.3.232]
+	at org.h2.command.Parser.parse(Parser.java:561) ~[h2-2.3.232.jar:2.3.232]
+	at org.h2.command.Parser.prepareCommand(Parser.java:484) ~[h2-2.3.232.jar:2.3.232]
+	at org.h2.engine.SessionLocal.prepareLocal(SessionLocal.java:645) ~[h2-2.3.232.jar:2.3.232]
+	at org.h2.engine.SessionLocal.prepareCommand(SessionLocal.java:561) ~[h2-2.3.232.jar:2.3.232]
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1164) ~[h2-2.3.232.jar:2.3.232]
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:245) ~[h2-2.3.232.jar:2.3.232]
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:231) ~[h2-2.3.232.jar:2.3.232]
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:95) ~[HikariCP-6.3.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java) ~[HikariCP-6.3.3.jar:na]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	... 38 common frames omitted
+
+2026-06-08T17:47:10.569+02:00  WARN 13572 --- [price-service] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "INSERT INTO prices (brand_id, start_date, end_date, price_list, product_id, priority, price, currency)" via JDBC [Error de Sintaxis en sentencia SQL "INSERT INTO prices (brand_id, start_date, end_date, price_list, product_id, priority, price, currency)[*]"; se esperaba "OVERRIDING USER VALUE, OVERRIDING SYSTEM VALUE, DIRECT, DEFAULT VALUES, VALUES, SET, WITH, (, SELECT, TABLE, VALUES"
+Syntax error in SQL statement "INSERT INTO prices (brand_id, start_date, end_date, price_list, product_id, priority, price, currency)[*]"; expected "OVERRIDING USER VALUE, OVERRIDING SYSTEM VALUE, DIRECT, DEFAULT VALUES, VALUES, SET, WITH, (, SELECT, TABLE, VALUES";]
+
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "INSERT INTO prices (brand_id, start_date, end_date, price_list, product_id, priority, price, currency)" via JDBC [Error de Sintaxis en sentencia SQL "INSERT INTO prices (brand_id, start_date, end_date, price_list, product_id, priority, price, currency)[*]"; se esperaba "OVERRIDING USER VALUE, OVERRIDING SYSTEM VALUE, DIRECT, DEFAULT VALUES, VALUES, SET, WITH, (, SELECT, TABLE, VALUES"
+Syntax error in SQL statement "INSERT INTO prices (brand_id, start_date, end_date, price_list, product_id, priority, price, currency)[*]"; expected "OVERRIDING USER VALUE, OVERRIDING SYSTEM VALUE, DIRECT, DEFAULT VALUES, VALUES, SET, WITH, (, SELECT, TABLE, VALUES";]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:94) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.tool.schema.internal.Helper.applySqlString(Helper.java:233) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.tool.schema.internal.Helper.applyScript(Helper.java:255) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applyImportFiles(SchemaCreatorImpl.java:694) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applyImportSources(SchemaCreatorImpl.java:597) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.performCreation(SchemaCreatorImpl.java:186) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:144) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:120) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:250) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at java.base/java.util.HashMap.forEach(HashMap.java:1429) ~[na:na]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:324) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:463) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1517) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66) ~[spring-orm-6.2.18.jar:6.2.18]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:388) ~[spring-orm-6.2.18.jar:6.2.18]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:419) ~[spring-orm-6.2.18.jar:6.2.18]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:400) ~[spring-orm-6.2.18.jar:6.2.18]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:364) ~[spring-orm-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1873) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1822) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:607) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:974) ~[spring-context-6.2.18.jar:6.2.18]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:628) ~[spring-context-6.2.18.jar:6.2.18]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.5.14.jar:3.5.14]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.5.14.jar:3.5.14]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.5.14.jar:3.5.14]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.5.14.jar:3.5.14]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.5.14.jar:3.5.14]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.5.14.jar:3.5.14]
+	at com.inditex.priceservice.PriceApplication.main(PriceApplication.java:10) ~[classes/:na]
+Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "INSERT INTO prices (brand_id, start_date, end_date, price_list, product_id, priority, price, currency)[*]"; se esperaba "OVERRIDING USER VALUE, OVERRIDING SYSTEM VALUE, DIRECT, DEFAULT VALUES, VALUES, SET, WITH, (, SELECT, TABLE, VALUES"
+Syntax error in SQL statement "INSERT INTO prices (brand_id, start_date, end_date, price_list, product_id, priority, price, currency)[*]"; expected "OVERRIDING USER VALUE, OVERRIDING SYSTEM VALUE, DIRECT, DEFAULT VALUES, VALUES, SET, WITH, (, SELECT, TABLE, VALUES"; SQL statement:
+INSERT INTO prices (brand_id, start_date, end_date, price_list, product_id, priority, price, currency) [42001-232]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:514) ~[h2-2.3.232.jar:2.3.232]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489) ~[h2-2.3.232.jar:2.3.232]
+	at org.h2.message.DbException.getSyntaxError(DbException.java:261) ~[h2-2.3.232.jar:2.3.232]
+	at org.h2.command.ParserBase.getSyntaxError(ParserBase.java:762) ~[h2-2.3.232.jar:2.3.232]
+	at org.h2.command.ParserBase.read(ParserBase.java:369) ~[h2-2.3.232.jar:2.3.232]
+	at org.h2.command.Parser.parseQueryPrimary(Parser.java:2696) ~[h2-2.3.232.jar:2.3.232]
+	at org.h2.command.Parser.parseQueryTerm(Parser.java:2547) ~[h2-2.3.232.jar:2.3.232]
+	at org.h2.command.Parser.parseQueryExpressionBody(Parser.java:2526) ~[h2-2.3.232.jar:2.3.232]
+	at org.h2.command.Parser.parseQueryExpressionBodyAndEndOfQuery(Parser.java:2519) ~[h2-2.3.232.jar:2.3.232]
+	at org.h2.command.Parser.parseQueryExpression(Parser.java:2512) ~[h2-2.3.232.jar:2.3.232]
+	at org.h2.command.Parser.parseQuery(Parser.java:2479) ~[h2-2.3.232.jar:2.3.232]
+	at org.h2.command.Parser.parseInsert(Parser.java:1558) ~[h2-2.3.232.jar:2.3.232]
+	at org.h2.command.Parser.parsePrepared(Parser.java:698) ~[h2-2.3.232.jar:2.3.232]
+	at org.h2.command.Parser.parse(Parser.java:581) ~[h2-2.3.232.jar:2.3.232]
+	at org.h2.command.Parser.parse(Parser.java:561) ~[h2-2.3.232.jar:2.3.232]
+	at org.h2.command.Parser.prepareCommand(Parser.java:484) ~[h2-2.3.232.jar:2.3.232]
+	at org.h2.engine.SessionLocal.prepareLocal(SessionLocal.java:645) ~[h2-2.3.232.jar:2.3.232]
+	at org.h2.engine.SessionLocal.prepareCommand(SessionLocal.java:561) ~[h2-2.3.232.jar:2.3.232]
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1164) ~[h2-2.3.232.jar:2.3.232]
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:245) ~[h2-2.3.232.jar:2.3.232]
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:231) ~[h2-2.3.232.jar:2.3.232]
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:95) ~[HikariCP-6.3.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java) ~[HikariCP-6.3.3.jar:na]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	... 38 common frames omitted
+
+2026-06-08T17:47:10.571+02:00  WARN 13572 --- [price-service] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "INSERT INTO prices (brand_id, start_date, end_date, price_list, product_id, priority, price, currency)" via JDBC [Error de Sintaxis en sentencia SQL "INSERT INTO prices (brand_id, start_date, end_date, price_list, product_id, priority, price, currency)[*]"; se esperaba "OVERRIDING USER VALUE, OVERRIDING SYSTEM VALUE, DIRECT, DEFAULT VALUES, VALUES, SET, WITH, (, SELECT, TABLE, VALUES"
+Syntax error in SQL statement "INSERT INTO prices (brand_id, start_date, end_date, price_list, product_id, priority, price, currency)[*]"; expected "OVERRIDING USER VALUE, OVERRIDING SYSTEM VALUE, DIRECT, DEFAULT VALUES, VALUES, SET, WITH, (, SELECT, TABLE, VALUES";]
+
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "INSERT INTO prices (brand_id, start_date, end_date, price_list, product_id, priority, price, currency)" via JDBC [Error de Sintaxis en sentencia SQL "INSERT INTO prices (brand_id, start_date, end_date, price_list, product_id, priority, price, currency)[*]"; se esperaba "OVERRIDING USER VALUE, OVERRIDING SYSTEM VALUE, DIRECT, DEFAULT VALUES, VALUES, SET, WITH, (, SELECT, TABLE, VALUES"
+Syntax error in SQL statement "INSERT INTO prices (brand_id, start_date, end_date, price_list, product_id, priority, price, currency)[*]"; expected "OVERRIDING USER VALUE, OVERRIDING SYSTEM VALUE, DIRECT, DEFAULT VALUES, VALUES, SET, WITH, (, SELECT, TABLE, VALUES";]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:94) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.tool.schema.internal.Helper.applySqlString(Helper.java:233) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.tool.schema.internal.Helper.applyScript(Helper.java:255) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applyImportFiles(SchemaCreatorImpl.java:694) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applyImportSources(SchemaCreatorImpl.java:597) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.performCreation(SchemaCreatorImpl.java:186) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:144) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:120) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:250) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at java.base/java.util.HashMap.forEach(HashMap.java:1429) ~[na:na]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:324) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:463) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1517) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66) ~[spring-orm-6.2.18.jar:6.2.18]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:388) ~[spring-orm-6.2.18.jar:6.2.18]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:419) ~[spring-orm-6.2.18.jar:6.2.18]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:400) ~[spring-orm-6.2.18.jar:6.2.18]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:364) ~[spring-orm-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1873) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1822) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:607) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:974) ~[spring-context-6.2.18.jar:6.2.18]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:628) ~[spring-context-6.2.18.jar:6.2.18]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.5.14.jar:3.5.14]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.5.14.jar:3.5.14]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.5.14.jar:3.5.14]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.5.14.jar:3.5.14]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.5.14.jar:3.5.14]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.5.14.jar:3.5.14]
+	at com.inditex.priceservice.PriceApplication.main(PriceApplication.java:10) ~[classes/:na]
+Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "INSERT INTO prices (brand_id, start_date, end_date, price_list, product_id, priority, price, currency)[*]"; se esperaba "OVERRIDING USER VALUE, OVERRIDING SYSTEM VALUE, DIRECT, DEFAULT VALUES, VALUES, SET, WITH, (, SELECT, TABLE, VALUES"
+Syntax error in SQL statement "INSERT INTO prices (brand_id, start_date, end_date, price_list, product_id, priority, price, currency)[*]"; expected "OVERRIDING USER VALUE, OVERRIDING SYSTEM VALUE, DIRECT, DEFAULT VALUES, VALUES, SET, WITH, (, SELECT, TABLE, VALUES"; SQL statement:
+INSERT INTO prices (brand_id, start_date, end_date, price_list, product_id, priority, price, currency) [42001-232]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:514) ~[h2-2.3.232.jar:2.3.232]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489) ~[h2-2.3.232.jar:2.3.232]
+	at org.h2.message.DbException.getSyntaxError(DbException.java:261) ~[h2-2.3.232.jar:2.3.232]
+	at org.h2.command.ParserBase.getSyntaxError(ParserBase.java:762) ~[h2-2.3.232.jar:2.3.232]
+	at org.h2.command.ParserBase.read(ParserBase.java:369) ~[h2-2.3.232.jar:2.3.232]
+	at org.h2.command.Parser.parseQueryPrimary(Parser.java:2696) ~[h2-2.3.232.jar:2.3.232]
+	at org.h2.command.Parser.parseQueryTerm(Parser.java:2547) ~[h2-2.3.232.jar:2.3.232]
+	at org.h2.command.Parser.parseQueryExpressionBody(Parser.java:2526) ~[h2-2.3.232.jar:2.3.232]
+	at org.h2.command.Parser.parseQueryExpressionBodyAndEndOfQuery(Parser.java:2519) ~[h2-2.3.232.jar:2.3.232]
+	at org.h2.command.Parser.parseQueryExpression(Parser.java:2512) ~[h2-2.3.232.jar:2.3.232]
+	at org.h2.command.Parser.parseQuery(Parser.java:2479) ~[h2-2.3.232.jar:2.3.232]
+	at org.h2.command.Parser.parseInsert(Parser.java:1558) ~[h2-2.3.232.jar:2.3.232]
+	at org.h2.command.Parser.parsePrepared(Parser.java:698) ~[h2-2.3.232.jar:2.3.232]
+	at org.h2.command.Parser.parse(Parser.java:581) ~[h2-2.3.232.jar:2.3.232]
+	at org.h2.command.Parser.parse(Parser.java:561) ~[h2-2.3.232.jar:2.3.232]
+	at org.h2.command.Parser.prepareCommand(Parser.java:484) ~[h2-2.3.232.jar:2.3.232]
+	at org.h2.engine.SessionLocal.prepareLocal(SessionLocal.java:645) ~[h2-2.3.232.jar:2.3.232]
+	at org.h2.engine.SessionLocal.prepareCommand(SessionLocal.java:561) ~[h2-2.3.232.jar:2.3.232]
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1164) ~[h2-2.3.232.jar:2.3.232]
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:245) ~[h2-2.3.232.jar:2.3.232]
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:231) ~[h2-2.3.232.jar:2.3.232]
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:95) ~[HikariCP-6.3.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java) ~[HikariCP-6.3.3.jar:na]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	... 38 common frames omitted
+
+2026-06-08T17:47:10.572+02:00  WARN 13572 --- [price-service] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "INSERT INTO prices (brand_id, start_date, end_date, price_list, product_id, priority, price, currency)" via JDBC [Error de Sintaxis en sentencia SQL "INSERT INTO prices (brand_id, start_date, end_date, price_list, product_id, priority, price, currency)[*]"; se esperaba "OVERRIDING USER VALUE, OVERRIDING SYSTEM VALUE, DIRECT, DEFAULT VALUES, VALUES, SET, WITH, (, SELECT, TABLE, VALUES"
+Syntax error in SQL statement "INSERT INTO prices (brand_id, start_date, end_date, price_list, product_id, priority, price, currency)[*]"; expected "OVERRIDING USER VALUE, OVERRIDING SYSTEM VALUE, DIRECT, DEFAULT VALUES, VALUES, SET, WITH, (, SELECT, TABLE, VALUES";]
+
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "INSERT INTO prices (brand_id, start_date, end_date, price_list, product_id, priority, price, currency)" via JDBC [Error de Sintaxis en sentencia SQL "INSERT INTO prices (brand_id, start_date, end_date, price_list, product_id, priority, price, currency)[*]"; se esperaba "OVERRIDING USER VALUE, OVERRIDING SYSTEM VALUE, DIRECT, DEFAULT VALUES, VALUES, SET, WITH, (, SELECT, TABLE, VALUES"
+Syntax error in SQL statement "INSERT INTO prices (brand_id, start_date, end_date, price_list, product_id, priority, price, currency)[*]"; expected "OVERRIDING USER VALUE, OVERRIDING SYSTEM VALUE, DIRECT, DEFAULT VALUES, VALUES, SET, WITH, (, SELECT, TABLE, VALUES";]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:94) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.tool.schema.internal.Helper.applySqlString(Helper.java:233) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.tool.schema.internal.Helper.applyScript(Helper.java:255) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applyImportFiles(SchemaCreatorImpl.java:694) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applyImportSources(SchemaCreatorImpl.java:597) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.performCreation(SchemaCreatorImpl.java:186) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:144) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:120) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:250) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at java.base/java.util.HashMap.forEach(HashMap.java:1429) ~[na:na]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:324) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:463) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1517) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66) ~[spring-orm-6.2.18.jar:6.2.18]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:388) ~[spring-orm-6.2.18.jar:6.2.18]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:419) ~[spring-orm-6.2.18.jar:6.2.18]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:400) ~[spring-orm-6.2.18.jar:6.2.18]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:364) ~[spring-orm-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1873) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1822) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:607) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:974) ~[spring-context-6.2.18.jar:6.2.18]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:628) ~[spring-context-6.2.18.jar:6.2.18]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.5.14.jar:3.5.14]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.5.14.jar:3.5.14]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.5.14.jar:3.5.14]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.5.14.jar:3.5.14]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.5.14.jar:3.5.14]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.5.14.jar:3.5.14]
+	at com.inditex.priceservice.PriceApplication.main(PriceApplication.java:10) ~[classes/:na]
+Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "INSERT INTO prices (brand_id, start_date, end_date, price_list, product_id, priority, price, currency)[*]"; se esperaba "OVERRIDING USER VALUE, OVERRIDING SYSTEM VALUE, DIRECT, DEFAULT VALUES, VALUES, SET, WITH, (, SELECT, TABLE, VALUES"
+Syntax error in SQL statement "INSERT INTO prices (brand_id, start_date, end_date, price_list, product_id, priority, price, currency)[*]"; expected "OVERRIDING USER VALUE, OVERRIDING SYSTEM VALUE, DIRECT, DEFAULT VALUES, VALUES, SET, WITH, (, SELECT, TABLE, VALUES"; SQL statement:
+INSERT INTO prices (brand_id, start_date, end_date, price_list, product_id, priority, price, currency) [42001-232]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:514) ~[h2-2.3.232.jar:2.3.232]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489) ~[h2-2.3.232.jar:2.3.232]
+	at org.h2.message.DbException.getSyntaxError(DbException.java:261) ~[h2-2.3.232.jar:2.3.232]
+	at org.h2.command.ParserBase.getSyntaxError(ParserBase.java:762) ~[h2-2.3.232.jar:2.3.232]
+	at org.h2.command.ParserBase.read(ParserBase.java:369) ~[h2-2.3.232.jar:2.3.232]
+	at org.h2.command.Parser.parseQueryPrimary(Parser.java:2696) ~[h2-2.3.232.jar:2.3.232]
+	at org.h2.command.Parser.parseQueryTerm(Parser.java:2547) ~[h2-2.3.232.jar:2.3.232]
+	at org.h2.command.Parser.parseQueryExpressionBody(Parser.java:2526) ~[h2-2.3.232.jar:2.3.232]
+	at org.h2.command.Parser.parseQueryExpressionBodyAndEndOfQuery(Parser.java:2519) ~[h2-2.3.232.jar:2.3.232]
+	at org.h2.command.Parser.parseQueryExpression(Parser.java:2512) ~[h2-2.3.232.jar:2.3.232]
+	at org.h2.command.Parser.parseQuery(Parser.java:2479) ~[h2-2.3.232.jar:2.3.232]
+	at org.h2.command.Parser.parseInsert(Parser.java:1558) ~[h2-2.3.232.jar:2.3.232]
+	at org.h2.command.Parser.parsePrepared(Parser.java:698) ~[h2-2.3.232.jar:2.3.232]
+	at org.h2.command.Parser.parse(Parser.java:581) ~[h2-2.3.232.jar:2.3.232]
+	at org.h2.command.Parser.parse(Parser.java:561) ~[h2-2.3.232.jar:2.3.232]
+	at org.h2.command.Parser.prepareCommand(Parser.java:484) ~[h2-2.3.232.jar:2.3.232]
+	at org.h2.engine.SessionLocal.prepareLocal(SessionLocal.java:645) ~[h2-2.3.232.jar:2.3.232]
+	at org.h2.engine.SessionLocal.prepareCommand(SessionLocal.java:561) ~[h2-2.3.232.jar:2.3.232]
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1164) ~[h2-2.3.232.jar:2.3.232]
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:245) ~[h2-2.3.232.jar:2.3.232]
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:231) ~[h2-2.3.232.jar:2.3.232]
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:95) ~[HikariCP-6.3.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java) ~[HikariCP-6.3.3.jar:na]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	... 38 common frames omitted
+
+2026-06-08T17:47:10.574+02:00  INFO 13572 --- [price-service] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-08T17:47:10.786+02:00  INFO 13572 --- [price-service] [           main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-06-08T17:47:11.241+02:00  WARN 13572 --- [price-service] [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-08T17:47:11.279+02:00  INFO 13572 --- [price-service] [           main] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2026-06-08T17:47:11.538+02:00  INFO 13572 --- [price-service] [           main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:pricesdb'
+2026-06-08T17:47:11.609+02:00  WARN 13572 --- [price-service] [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2026-06-08T17:47:11.610+02:00  INFO 13572 --- [price-service] [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-08T17:47:11.613+02:00  INFO 13572 --- [price-service] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-06-08T17:47:11.615+02:00  INFO 13572 --- [price-service] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-06-08T17:47:11.626+02:00  INFO 13572 --- [price-service] [           main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-06-08T17:47:11.641+02:00 ERROR 13572 --- [price-service] [           main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  13.055 s
+[INFO] Finished at: 2026-06-08T17:47:11+02:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.springframework.boot:spring-boot-maven-plugin:3.5.14:run (default-cli) on project price-service: Process terminated with exit code: 1 -> [Help 1]
+org.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.springframework.boot:spring-boot-maven-plugin:3.5.14:run (default-cli) on project price-service: Process terminated with exit code: 1
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2 (MojoExecutor.java:333)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute (MojoExecutor.java:316)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:212)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:174)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.access$000 (MojoExecutor.java:75)
+    at org.apache.maven.lifecycle.internal.MojoExecutor$1.run (MojoExecutor.java:162)
+    at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute (DefaultMojosExecutionStrategy.java:39)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:159)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:105)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:73)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:53)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:118)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:261)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:919)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:285)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:207)
+    at jdk.internal.reflect.DirectMethodHandleAccessor.invoke (DirectMethodHandleAccessor.java:103)
+    at java.lang.reflect.Method.invoke (Method.java:580)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:255)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:201)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:362)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:314)
+Caused by: org.apache.maven.plugin.MojoExecutionException: Process terminated with exit code: 1
+    at org.springframework.boot.maven.JavaProcessExecutor.run (JavaProcessExecutor.java:74)
+    at org.springframework.boot.maven.RunMojo.run (RunMojo.java:84)
+    at org.springframework.boot.maven.AbstractRunMojo.run (AbstractRunMojo.java:255)
+    at org.springframework.boot.maven.AbstractRunMojo.execute (AbstractRunMojo.java:218)
+    at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo (DefaultBuildPluginManager.java:126)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2 (MojoExecutor.java:328)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute (MojoExecutor.java:316)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:212)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:174)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.access$000 (MojoExecutor.java:75)
+    at org.apache.maven.lifecycle.internal.MojoExecutor$1.run (MojoExecutor.java:162)
+    at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute (DefaultMojosExecutionStrategy.java:39)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:159)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:105)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:73)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:53)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:118)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:261)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:919)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:285)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:207)
+    at jdk.internal.reflect.DirectMethodHandleAccessor.invoke (DirectMethodHandleAccessor.java:103)
+    at java.lang.reflect.Method.invoke (Method.java:580)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:255)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:201)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:362)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:314)
+[ERROR] 
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
