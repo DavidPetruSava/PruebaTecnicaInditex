@@ -11,7 +11,6 @@ import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.equalTo;
 
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
-@DisplayName("Price API E2E Tests")
 class PriceControllerE2ETest {
 
     private static final long PRODUCT_ID = 35455L;
@@ -26,7 +25,7 @@ class PriceControllerE2ETest {
     }
 
     @Test
-    @DisplayName("Test 1 - 14/06 10:00 → price list 1, price 35.50")
+    @DisplayName("Test 1")
     void test1_june14At10h_shouldReturnPriceList1() {
         given()
             .param("applicationDate", "2020-06-14T10:00:00")
@@ -43,7 +42,7 @@ class PriceControllerE2ETest {
     }
 
     @Test
-    @DisplayName("Test 2 - 14/06 16:00 → price list 2, price 25.45 (higher priority)")
+    @DisplayName("Test 2")
     void test2_june14At16h_shouldReturnPriceList2() {
         given()
             .param("applicationDate", "2020-06-14T16:00:00")
@@ -58,7 +57,7 @@ class PriceControllerE2ETest {
     }
 
     @Test
-    @DisplayName("Test 3 - 14/06 21:00 → price list 1, price 35.50 (PL2 expired)")
+    @DisplayName("Test 3")
     void test3_june14At21h_shouldReturnPriceList1() {
         given()
             .param("applicationDate", "2020-06-14T21:00:00")
@@ -73,7 +72,7 @@ class PriceControllerE2ETest {
     }
 
     @Test
-    @DisplayName("Test 4 - 15/06 10:00 → price list 3, price 30.50")
+    @DisplayName("Test 4")
     void test4_june15At10h_shouldReturnPriceList3() {
         given()
             .param("applicationDate", "2020-06-15T10:00:00")
@@ -88,7 +87,7 @@ class PriceControllerE2ETest {
     }
 
     @Test
-    @DisplayName("Test 5 - 16/06 21:00 → price list 4, price 38.95")
+    @DisplayName("Test 5")
     void test5_june16At21h_shouldReturnPriceList4() {
         given()
             .param("applicationDate", "2020-06-16T21:00:00")
@@ -126,5 +125,19 @@ class PriceControllerE2ETest {
             .get("/prices")
         .then()
             .statusCode(400);
+    }
+
+    @Test
+    @DisplayName("Should return 400 when applicationDate has invalid format")
+    void shouldReturn400WhenDateFormatIsInvalid() {
+        given()
+            .param("applicationDate", "not-a-date")
+            .param("productId", PRODUCT_ID)
+            .param("brandId", BRAND_ID)
+        .when()
+            .get("/prices")
+        .then()
+            .statusCode(400)
+            .body("status", equalTo(400));
     }
 }
